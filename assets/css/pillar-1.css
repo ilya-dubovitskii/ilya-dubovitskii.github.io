@@ -440,8 +440,9 @@ mark,
 
 .home {
     position: absolute;
-    left: 40%;
+    left: 50%;
     top: 30%;
+    transform: translateX(-50%);
 }
 
 .list-unstyled {
