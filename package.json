@@ -1,0 +1,30 @@
+{
+  "name": "ilya-dubovitskii.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilya-dubovitskii/ilya-dubovitskii.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ilya-dubovitskii/ilya-dubovitskii.github.io/issues"
+  },
+  "homepage": "https://github.com/ilya-dubovitskii/ilya-dubovitskii.github.io#readme",
+  "scripts": {
+    "resume:validate": "resumed validate data/resume.en.json && resumed validate data/resume.ru.json",
+    "resume:html": "mkdir -p assets/resume && resumed render data/resume.en.json -t jsonresume-theme-even -o assets/resume/index.html",
+    "resume:pdf:en": "mkdir -p assets/resume && resumed export data/resume.en.json -t jsonresume-theme-even -o assets/resume/ilia-resume-en.pdf",
+    "resume:pdf:ru": "mkdir -p assets/resume && resumed export data/resume.ru.json -t jsonresume-theme-even -o assets/resume/ilia-resume-ru.pdf",
+    "resume:build": "npm run resume:validate && npm run resume:html && npm run resume:pdf:en && npm run resume:pdf:ru"
+  },
+  "devDependencies": {
+    "jsonresume-theme-even": "^0.26.1",
+    "puppeteer": "^24.26.1",
+    "resumed": "^6.1.0"
+  }
+}

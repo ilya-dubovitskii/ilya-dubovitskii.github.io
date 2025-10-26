@@ -1,0 +1,129 @@
+{
+  "basics": {
+    "name": "Ilya Dubovitskii",
+    "label": "Data Scientist",
+    "email": "ilya.dubovitskii@skoltech.ru",
+    "phone": "+7 999 156 4321",
+    "location": { "city": "Moscow", "countryCode": "RU" },
+    "summary": "MS Data Science student at Skoltech with experience in Computer Vision and Python software engineering.",
+    "profiles": [
+      { "network": "LinkedIn", "username": "ilya-dubovitskii", "url": "https://www.linkedin.com/in/ilya-dubovitskii/" },
+      { "network": "GitHub", "username": "ilya-dubovitskii", "url": "https://github.com/ilya-dubovitskii" },
+      { "network": "Telegram", "username": "Rawsone", "url": "https://t.me/Rawsone" }
+    ]
+  },
+  "education": [
+    {
+      "institution": "MADE Big Data Academy (Mail.ru Group)",
+      "area": "Data Science track",
+      "studyType": "Certificate program",
+      "startDate": "2020-01-01",
+      "courses": ["Python", "Statistics", "Machine Learning", "Deep Learning", "NLP", "Big Data"]
+    },
+    {
+      "institution": "Skolkovo Institute of Science and Technology (Skoltech)",
+      "area": "Machine Learning and Artificial Intelligence",
+      "studyType": "Master's",
+      "startDate": "2020-01-01",
+      "score": "GPA 4.875",
+      "summary": "Thesis: Hyperbolic Sequence-Aware Recommendation Systems.",
+      "courses": ["Numerical Linear Algebra", "Machine Learning", "Deep Learning"]
+    },
+    {
+      "institution": "National University of Singapore",
+      "area": "Exchange program",
+      "studyType": "Academic exchange",
+      "startDate": "2018-08-01",
+      "endDate": "2019-06-01",
+      "courses": ["Machine Learning", "Design Patterns", "Data Structures and Algorithms"]
+    },
+    {
+      "institution": "Innopolis University",
+      "area": "Computer Science (Data Science track)",
+      "studyType": "Bachelor's",
+      "startDate": "2016-01-01",
+      "endDate": "2020-01-01",
+      "score": "GPA 4.6",
+      "summary": "Thesis: Automated Student Attendance Management System (DNN-based face detection & recognition, Moodle integration). Studied adversarial robustness.",
+      "courses": [
+        "Operating Systems",
+        "Computer Networks",
+        "Compilers",
+        "Data Modeling and Databases",
+        "Software Architecture",
+        "Design Patterns",
+        "Modern Application Production",
+        "Computer Vision",
+        "Information Retrieval"
+      ],
+      "url": "https://gitlab.com/ilya.dubovitsky/stud_attend"
+    }
+  ],
+  "work": [
+    {
+      "name": "Federal Taxation Service of the Russian Federation",
+      "position": "Machine Learning Engineer",
+      "startDate": "2021-01-01",
+      "endDate": "2021-03-01",
+      "summary": "Built a model to predict contract success.",
+      "highlights": ["Python"]
+    },
+    {
+      "name": "DarQube Ltd",
+      "position": "Python Developer",
+      "url": "https://darqube.io",
+      "startDate": "2019-10-01",
+      "endDate": "2019-12-01",
+      "summary": "Backend for a cryptocurrency trading terminal; crawlers for exchange rates.",
+      "highlights": ["Python", "Django", "MongoDB"]
+    },
+    {
+      "name": "EORA DataLab",
+      "position": "Computer Vision Engineer (Intern)",
+      "url": "https://eora.ai",
+      "startDate": "2019-06-01",
+      "endDate": "2019-08-01",
+      "summary": "Sensitive info extraction from insurance docs; head detection & tracking in public transport; lightweight models for embedded systems.",
+      "highlights": ["Python", "TensorFlow", "PyTorch"]
+    },
+    {
+      "name": "FSF Research Institute \"Voskhod\"",
+      "position": "Java Developer (Intern)",
+      "url": "https://www.voskhod.ru",
+      "startDate": "2018-06-01",
+      "endDate": "2018-08-01",
+      "summary": "Extended a corporate portal using Liferay.",
+      "highlights": ["Java", "Spring", "Liferay"]
+    },
+    {
+      "name": "Industrial Production of Software Lab, Innopolis",
+      "position": "Java Developer (Intern)",
+      "startDate": "2017-06-01",
+      "endDate": "2017-08-01",
+      "summary": "Testing Eclipse plugin for Java memory visualization.",
+      "highlights": ["Java"]
+    }
+  ],
+  "skills": [
+    { "name": "Data Science", "level": "Intermediate", "keywords": ["ML/DL", "PyTorch (3/3)", "Keras (1/3)"] },
+    { "name": "Software Development", "level": "Intermediate", "keywords": ["Agile", "Python (3/3)", "Django (2/3)"] },
+    { "name": "Other", "keywords": ["English (Advanced)", "Git (3/3)", "Time Management (Advanced)", "Java (2/3)", "Haskell (1/3)"] }
+  ],
+  "awards": [
+    {
+      "title": "1st place at \"PhysTech\" olympiad",
+      "date": "2016-01-01",
+      "url": "https://mipt.ru/abiturs/olympiads/fizteh/results/scans.php?category=physics_11"
+    },
+    {
+      "title": "Prize-winner of regional stages of All-Russian Olympiad (Math & Physics)",
+      "date": "2014-01-01",
+      "summary": "Prize places in 2014–2016"
+    }
+  ],
+  "languages": [
+    { "language": "English", "fluency": "Advanced" },
+    { "language": "Russian", "fluency": "Native" }
+  ],
+  "meta": { "theme": "jsonresume-theme-even" }
+}

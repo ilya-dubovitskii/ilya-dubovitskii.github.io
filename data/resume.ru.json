@@ -1,0 +1,129 @@
+{
+  "basics": {
+    "name": "Илья Дубовицкий",
+    "label": "Data Scientist",
+    "email": "ilya.dubovitskii@skoltech.ru",
+    "phone": "+7 999 156 4321",
+    "location": { "city": "Москва", "countryCode": "RU" },
+    "summary": "Магистрант Сколтеха (Data Science). Опыт в компьютерном зрении и разработке на Python.",
+    "profiles": [
+      { "network": "LinkedIn", "username": "ilya-dubovitskii", "url": "https://www.linkedin.com/in/ilya-dubovitskii/" },
+      { "network": "GitHub", "username": "ilya-dubovitskii", "url": "https://github.com/ilya-dubovitskii" },
+      { "network": "Telegram", "username": "Rawsone", "url": "https://t.me/Rawsone" }
+    ]
+  },
+  "education": [
+    {
+      "institution": "Академия Больших Данных MADE (Mail.ru Group)",
+      "area": "Data Science",
+      "studyType": "Program",
+      "startDate": "2020-01-01",
+      "courses": ["Python", "Статистика", "Machine Learning", "Deep Learning", "NLP", "Big Data"]
+    },
+    {
+      "institution": "Сколковский институт науки и технологий (Сколтех)",
+      "area": "Machine Learning and Artificial Intelligence",
+      "studyType": "Master's",
+      "startDate": "2020-01-01",
+      "summary": "Thesis: Hyperbolic Sequence-Aware Recommendation Systems.",
+      "score": "GPA 4.875",
+      "courses": ["Numerical Linear Algebra", "Machine Learning", "Deep Learning"]
+    },
+    {
+      "institution": "National University of Singapore",
+      "area": "Exchange program",
+      "studyType": "Exchange",
+      "startDate": "2018-08-01",
+      "endDate": "2019-06-01",
+      "courses": ["Machine Learning", "Design Patterns", "Data Structures and Algorithms"]
+    },
+    {
+      "institution": "Университет Иннополис",
+      "area": "Computer Science (Data Science track)",
+      "studyType": "Bachelor's",
+      "startDate": "2016-01-01",
+      "endDate": "2020-01-01",
+      "score": "GPA 4.6",
+      "summary": "Diploma: Automated Student Attendance Management System (распознавание лиц, интеграция с Moodle). Исследование устойчивости к adversarial-атакам.",
+      "url": "https://gitlab.com/ilya.dubovitsky/stud_attend",
+      "courses": [
+        "Operating Systems",
+        "Computer Networks",
+        "Compilers",
+        "Data Modeling and Databases",
+        "Software Architecture",
+        "Design Patterns",
+        "Modern Application Production",
+        "Computer Vision",
+        "Information Retrieval"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "name": "Федеральная налоговая служба РФ",
+      "position": "Machine Learning Engineer",
+      "startDate": "2021-01-01",
+      "endDate": "2021-03-01",
+      "summary": "Модель для предсказания успешности контракта.",
+      "highlights": ["Python"]
+    },
+    {
+      "name": "DarQube Ltd",
+      "position": "Python Developer",
+      "url": "https://darqube.io",
+      "startDate": "2019-10-01",
+      "endDate": "2019-12-01",
+      "summary": "Бэкенд криптовалютного терминала; краулеры для курсов.",
+      "highlights": ["Python", "Django", "MongoDB"]
+    },
+    {
+      "name": "EORA DataLab",
+      "position": "Computer Vision Engineer (стажёр)",
+      "url": "https://eora.ai",
+      "startDate": "2019-06-01",
+      "endDate": "2019-08-01",
+      "summary": "Извлечение ключевой информации из страховых документов; детекция и трекинг голов в транспорте; лёгкие модели для встраиваемых систем.",
+      "highlights": ["Python", "TensorFlow", "PyTorch"]
+    },
+    {
+      "name": "ФГБУ НИИ Восход",
+      "position": "Java Developer (стажёр)",
+      "url": "https://www.voskhod.ru",
+      "startDate": "2018-06-01",
+      "endDate": "2018-08-01",
+      "summary": "Расширение функциональности корпоративного портала на Liferay.",
+      "highlights": ["Java", "Spring", "Liferay"]
+    },
+    {
+      "name": "Industrial Production of Software Lab, Иннополис",
+      "position": "Java Developer (стажёр)",
+      "startDate": "2017-06-01",
+      "endDate": "2017-08-01",
+      "summary": "Тестирование плагина Eclipse для визуализации памяти Java.",
+      "highlights": ["Java"]
+    }
+  ],
+  "skills": [
+    { "name": "Data Science", "level": "Intermediate", "keywords": ["ML/DL", "PyTorch (3/3)", "Keras (1/3)"] },
+    { "name": "Software Development", "level": "Intermediate", "keywords": ["Agile", "Python (3/3)", "Django (2/3)"] },
+    { "name": "Other", "keywords": ["English (Advanced)", "Git (3/3)", "Time Management (Advanced)", "Java (2/3)", "Haskell (1/3)"] }
+  ],
+  "awards": [
+    {
+      "title": "1-е место на олимпиаде «Физтех»",
+      "date": "2016-01-01",
+      "url": "https://mipt.ru/abiturs/olympiads/fizteh/results/scans.php?category=physics_11"
+    },
+    {
+      "title": "Призёр региональных этапов Всероссийской олимпиады школьников (математика и физика)",
+      "date": "2014-01-01",
+      "summary": "Призовые места в 2014–2016"
+    }
+  ],
+  "languages": [
+    { "language": "Русский", "fluency": "Native" },
+    { "language": "Английский", "fluency": "C1" }
+  ],
+  "meta": { "theme": "jsonresume-theme-even" }
+}
